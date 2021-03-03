@@ -2,7 +2,7 @@
 Repo to share tests for the CS259 coursework.
 
 If you want to add your own tests then submit a merge-request with your tests in a folder with a README.md describing the correct output etc.
-By submiting a pull-request, you agree to licence the contents as below.
+By submitting a pull-request, you agree to licence the contents as below.
 
 ## Usage
 
