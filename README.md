@@ -7,3 +7,8 @@ By submiting a pull-request, you agree to licence the contents as below.
 ## License
 
 Everything in this repository is licensed under CC BY-SA.
+
+## `testall`
+How to run:
+- `chmod a+x testall`
+- `./testall`

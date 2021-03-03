@@ -1,0 +1,48 @@
+#!/bin/sh
+echo "=== All of these should fail ==="
+echo "0progrecurse.txt"
+java Assignment < ./testprograms/0progrecurse.txt
+echo "1funcnamedefres.txt"
+java Assignment < ./testprograms/1funcnamedefres.txt
+echo "1funcnameempty.txt"
+java Assignment < ./testprograms/1funcnameempty.txt
+echo "1funcnamenotupper.txt"
+java Assignment < ./testprograms/1funcnamenotupper.txt
+echo "2paramnameempty.txt"
+java Assignment < ./testprograms/2paramnameempty.txt
+echo "2paramnamenotlower.txt"
+java Assignment < ./testprograms/2paramnamenotlower.txt
+echo "3mainparam.txt"
+java Assignment < ./testprograms/3mainparam.txt
+echo "4funcbodyspaceless.txt"
+java Assignment < ./testprograms/4funcbodyspaceless.txt
+echo "4funcbodyspacemore.txt"
+java Assignment < ./testprograms/4funcbodyspacemore.txt
+echo "5funcbodyexprempty.txt"
+java Assignment < ./testprograms/5funcbodyexprempty.txt
+echo "5funcbodyexprparentheses.txt"
+java Assignment < ./testprograms/5funcbodyexprparentheses.txt
+echo "5funcbodyexprsub.txt"
+java Assignment < ./testprograms/5funcbodyexprsub.txt
+echo "6funccallmissing.txt"
+java Assignment < ./testprograms/6funccallmissing.txt
+echo "8progmissingmain.txt"
+java Assignment < ./testprograms/8progmissingmain.txt
+echo "8progtwofunc.txt"
+java Assignment < ./testprograms/8progtwofunc.txt
+echo "8progtwomain.txt"
+java Assignment < ./testprograms/8progtwomain.txt
+
+echo "=== These should pass ==="
+echo "example1.txt"
+java Assignment < ./testprograms/examples/example1.txt
+echo "example2.txt"
+java Assignment < ./testprograms/examples/example2.txt
+echo "example3.txt"
+java Assignment < ./testprograms/examples/example3.txt
+
+echo "=== These should fail ==="
+echo "nonexample1.txt"
+java Assignment < ./testprograms/examples/nonexample1.txt
+echo "nonexample2.txt"
+java Assignment < ./testprograms/examples/nonexample2.txt
