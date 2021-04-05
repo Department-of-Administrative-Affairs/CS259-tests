@@ -1,8 +1,6 @@
 #!/bin/sh
 
 echo "=== All of these should fail ==="
-echo "0progrecurse.txt"
-java -cp ../ Assignment < ./testprograms/0progrecurse.txt
 echo "1funcnamedefres.txt"
 java -cp ../ Assignment < ./testprograms/1funcnamedefres.txt
 echo "1funcnameempty.txt"
@@ -33,6 +31,10 @@ echo "8progtwofunc.txt"
 java -cp ../ Assignment < ./testprograms/8progtwofunc.txt
 echo "8progtwomain.txt"
 java -cp ../ Assignment < ./testprograms/8progtwomain.txt
+
+echo "=== These should pass with divergence ==="
+echo "0progrecurse.txt"
+java -cp ../ Assignment < ./testprograms/0progrecurse.txt
 
 echo "=== These should pass ==="
 echo "example1.txt"
