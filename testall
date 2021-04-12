@@ -17,6 +17,8 @@ echo "4funcbodyspaceless.txt"
 java -cp ../ Assignment < ./testprograms/4funcbodyspaceless.txt
 echo "4funcbodyspacemore.txt"
 java -cp ../ Assignment < ./testprograms/4funcbodyspacemore.txt
+echo "4funcincomplete.txt"
+java -cp ../ Assignment < ./testprograms/4funcincomplete.txt
 echo "5funcbodyexprempty.txt"
 java -cp ../ Assignment < ./testprograms/5funcbodyexprempty.txt
 echo "5funcbodyexprparentheses.txt"
