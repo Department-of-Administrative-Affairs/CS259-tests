@@ -27,6 +27,8 @@ echo "5funcbodyexprsub.txt"
 java -cp ../ Assignment < ./testprograms/5funcbodyexprsub.txt
 echo "6funccallmissing.txt"
 java -cp ../ Assignment < ./testprograms/6funccallmissing.txt
+echo "6funccallmissing_unuseddef.txt"
+java -cp ../ Assignment < ./testprograms/6funccallmissing_unuseddef.txt
 echo "7paramrefmissing.txt"
 java -cp ../ Assignment < ./testprograms/7paramrefmissing.txt
 echo "8progmissingmain.txt"
