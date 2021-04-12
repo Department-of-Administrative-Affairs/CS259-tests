@@ -39,6 +39,8 @@ java -cp ../ Assignment < ./testprograms/8progtwomain.txt
 echo "=== These should pass with divergence ==="
 echo "0progrecurse.txt"
 java -cp ../ Assignment < ./testprograms/0progrecurse.txt
+echo "0progrecurse2.txt"
+java -cp ../ Assignment < ./testprograms/0progrecurse2.txt
 echo "example3.txt"
 java -cp ../ Assignment < ./testprograms/examples/example3.txt
 
